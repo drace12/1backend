@@ -6,7 +6,7 @@
       </a>
     </span>
     <mat-card style="margin-top: 0.3em;">
-      <h1 style="color: #2196F3;">{{issue.Title}}</h1>
+      <h1 style="color: #2196F3; padding-bottom: 0.5em">{{issue.Title}}</h1>
       issue opened {{issue.CreatedAt | amTimeAgo}} by {{issuerComment.User?.Nick}}
     </mat-card>
     <mat-card style="margin-top: 0.5em;">
@@ -48,7 +48,7 @@
 </textarea>
         </div>
         <div style="margin-top: 2em; padding-top: 0.5em">
-          <button mat-raised-button style="background-color: rgb(0,192,66);" (click)="addComment()">
+          <button mat-raised-button style="background-color: rgb(0, 67, 192);" (click)="addComment()">
             <font color="white">
               <b>Comment</b>
             </font>
